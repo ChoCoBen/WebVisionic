@@ -1,0 +1,112 @@
+[
+  {
+    "type":"article",
+    "title":"Red lesion detection using dynamic shape features for diabetic retinopathy screening",
+    "author":["Seoud, Lama", "Hurtut, Thomas", "Chelbi, Jihed", "Cheriet, Farida", "Langlois, JM Pierre"],
+    "bookTitle":"",
+    "journal":"IEEE transactions on medical imaging",
+    "year":2015,
+    "publisher":"IEEE",
+    "link": "https://ieeexplore.ieee.org/abstract/document/7360182",
+    "image":"Seoud_2015.jpg"
+  },
+  {
+    "type":"article",
+    "title":"Automatic screening and grading of age-related macular degeneration from texture analysis of fundus images",
+    "author":["Phan, Thanh Vân", "Seoud, Lama", "Chakor, Hadi", "Cheriet, Farida"],
+    "bookTitle":"",
+    "journal":"of ophthalmology",
+    "year":2016,
+    "publisher":"Hindawi",
+    "link":"https://www.hindawi.com/journals/joph/2016/5893601/",
+    "image":"Phan_2016.jpg"
+  },
+  {
+    "type":"article",
+    "title":"A novel fully automatic measurement of apparent breast volume from trunk surface mesh",
+    "author":["Seoud, Lama", "Ramsay, Joyce", "Parent, Stefan", "Cheriet, Farida"],
+    "bookTitle":"",
+    "journal":"Medical engineering & physics",
+    "year":2017,
+    "publisher":"Elsevier",
+    "link":"https://www.sciencedirect.com/science/article/pii/S135045331730005X",
+    "image":"Seoud_2017.jpg"
+  },
+  {
+    "type":"article",
+    "title":"Assessment of breast asymmetry in adolescent idiopathic scoliosis using an automated 3D body surface measurement technique",
+    "author":["Ramsay, Joyce", "Seoud, Lama", "Barchi, Soraya", "Cheriet, Farida", "Joncas, Julie", "Turgeon, Isabelle", "Debanné, Philippe", "Trop, Isabelle", "Labelle, Hubert", "Parent, Stefan"],
+    "bookTitle":"",
+    "journal":"Spine deformity",
+    "year":2017,
+    "publisher":"(No longer) Elsevier",
+    "link":"https://www.sciencedirect.com/science/article/abs/pii/S2212134X17300060",
+    "image":"Ramsay_2017.jpg"
+  },
+  {
+    "type":"procedings",
+    "title":"Increasing the robustness of CNN-based human body segmentation in range images by modeling sensor-specific artifacts",
+    "author":["Seoud, Lama", "Boisvert, Jonathan", "Drouin, Marc-Antoine", "Picard, Michel", "Godin, Guy"],
+    "bookTitle":"3d reconstruction meets semantics, Workshop of the European Conference on Computer Vision",
+    "journal":"",
+    "year":2018,
+    "publisher":"",
+    "link":"https://openaccess.thecvf.com/content_eccv_2018_workshops/w18/html/Seoud_Increasing_the_robustness_of_CNN-based_human_body_segmentation_in_range_ECCVW_2018_paper.html",
+    "image":"Seoud_2018.jpg"
+  },
+  {
+    "type":"procedings",
+    "title":"Training a CNN to robustly segment the human body parts in range image sequences",
+    "author":["Seoud, Lama", "Boisvert, Jonathan", "Drouin, Marc-Antoine", "Picard, Michel", "Godin, Guy"],
+    "bookTitle":"SPIE Photonics West, Optical Data Science II",
+    "journal":"",
+    "year":2019,
+    "publisher":"",
+    "link":"https://www.spiedigitallibrary.org/conference-proceedings-of-spie/10937/109370I/Training-a-CNN-to-robustly-segment-the-human-body-parts/10.1117/12.2508903.short?SSO=1",
+    "image":"Seoud_2019.jpg"
+  },
+  {
+    "type":"article",
+    "title":"Consumer-Grade RGB-D Cameras",
+    "author":["Drouin, Marc-Antoine", "Seoud, Lama"],
+    "bookTitle":"",
+    "journal":"3D Imaging, Analysis and Applications",
+    "year":2020,
+    "publisher":"Springer International Publishing",
+    "link":"https://link.springer.com/chapter/10.1007/978-3-030-44070-1_5",
+    "image":"Drouin_2020.jpg"
+  },
+  {
+    "type":"procedings",
+    "title":"Local anomaly detection in videos using object-centric adversarial learning",
+    "author":["Roy, Pankaj Raj", "Bilodeau, Guillaume-Alexandre", "Seoud, Lama"],
+    "bookTitle":"Pattern Recognition. ICPR International Workshops and Challenges: Virtual Event, January 10--15, 2021, Proceedings, Part IV",
+    "journal":"",
+    "year":2021,
+    "publisher":"Springer International Publishing",
+    "link":"https://link.springer.com/chapter/10.1007/978-3-030-68799-1_16",
+    "image":"Roy_2021a.jpg"
+  },
+  {
+    "type":"procedings",
+    "title":"Predicting next local appearance for video anomaly detection",
+    "author":["Roy, Pankaj Raj", "Bilodeau, Guillaume-Alexandre", "Seoud, Lama"],
+    "bookTitle":"2021 17th International Conference on Machine Vision and Applications (MVA)",
+    "journal":"",
+    "year":2021,
+    "publisher":"IEEE",
+    "link":"https://ieeexplore.ieee.org/abstract/document/9511378",
+    "image":"Roy_2021b.jpg"
+  },
+  {
+    "type":"article",
+    "title":"Segmentation of trabecular bone microdamage in Xray microCT images using a two-step deep learning method",
+    "author":["Caron, Rodrigue", "Londono, Irène", "Seoud, Lama", "Villemure, Isabelle"],
+    "bookTitle":"",
+    "journal":"of the Mechanical Behavior of Biomedical Materials",
+    "year":2023,
+    "publisher":"Elsevier",
+    "link":"https://www.sciencedirect.com/science/article/pii/S1751616122004453",
+    "image":"Caron_2023.jpg"
+  }
+]

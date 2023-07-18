@@ -1,0 +1,79 @@
+[
+  {
+    "title": "PICUPE : Pediatric Intensive Care Unit Pose Estimation",
+    "image": ["PICUPE1.png","PICUPE2.png","PICUPE3.png","PICUPE4.png","PICUPE5.PNG","PICUPE6.jpg","PICUPE7.png"],
+    "desc": "Patients in the pediatric intensive care unit (PICU) are usually critically-ill, requiring continuous monitoring of their vital signs among which neurological signs rely on the assessment of motion of the head and limbs. In the PICU, patients are more frequently infants or young children, they are most of the time lying down in the hospital bed, with a blanket, a diaper or medical equipment covering them at least partly. This project, in collaboration with CHU Sainte Justine, aims first at estimating the 3D pose of the patients from multimodal videos (RGB, depth and thermal images) by adressing the challenges related to varying morphology, presence of occlusions, particular pose vocabulary. Second, the project will focus on motion analysis from the sequence of 3D poses to detect and possibly predict irregular motions patterns that could be indicative of a neurological distress.",
+    "keywords": ["multimodal learning", "human pose estimation", "unsupervised pose estimation", "thermal super-resolution"],
+    "funding": ["CRSNG.png"],
+    "institution": ["CHU Sainte Justine"],
+    "collaborators": ["Philippe Jouvet, MD"],
+    "students": ["Cyprien ARNOLD", "Hugo RODET", "Olivier DESCLAUX", "Ghassen CHERNI"],
+    "id": "PICUPE"
+  },
+  {
+    "title": "PlacentaNet : AI-assisted analysis of whole-slides images of the placenta",
+    "image": ["Placenta1.png", "Placenta2.png", "Placenta3.png", "Placenta4.png", "Placenta5.png", "Placenta6.jpg", "Placenta7.jpg"],
+    "desc": "At the CHU Sainte-Justine (CHUSJ), more than 6000 placentas are collected yearly and analyzed in the pathology department. Although a macroscopic evaluation is performed on each of them, only a small portion of these placentas is observed under the microscope associated with these evaluations. Placentas from pathological pregnancies are analyzed in priority. However, our collaborators have shown that placentas from healthy pregnancies, without complications, can still have inflammatory and structural changes visible only through microscopic analysis. Its analysis might provide information that could be of primary importance for the development of the fetus and then the newborn, and for the mother's subsequent pregnancies. In this project, we aim for a computer-assisted, AI based, microscopic evaluation that could help to alleviate the workload and still allow optimal clinical follow-up. Since a large majority of the whole-slides images (WSI) at CHUSJ are without pathology, we are approaching the problem from an anomaly detection point of view, trying to model the normal distribution in order to detect any deviation from this distribution as a possible sign of pathology.",
+    "keywords": ["anomaly detection", "digital pathology", "placenta"],
+    "funding": ["iTMT.png"],
+    "institution": ["CHU Sainte Justine", "Mayo Clinic"],
+    "collaborators": ["Dorothée Dal Soglio, MD & Sylvie Girard, PhD"],
+    "students": ["Gaspar FAURE", "Youmna BADAWY", "Yann MAJEWSKY"],
+    "id": "PlacentaNet"
+  },
+  {
+    "title": "Vision-based markerless motion capture systems for circus applications",
+    "image": ["Cirque1.png", "Cirque2.png", "Cirque3.png", "Cirque4.png", "Cirque5.png", "Cirque6.png", "Cirque7.png"],
+    "desc": "In Quebec, the circus arts sector has been hard hit by the pandemic. The entertainment industry is keen to reinvent itself by creating virtual or hybrid shows. To do this, it is necessary to capture the movement of acrobats and retranscribe it into a digital environment, but current mocap technology, with markers on the body, is limiting. The aim of this project is to evaluate markerless motion capture solutions, using commercial depth cameras and state-of-the-art human pose estimation algorithms, in the specific context of circus arts: contortion, aerial acrobatics, juggling... Performances in these disciplines were recorded with three different RGBD cameras and a reference system with markers, in order to compare the accuracy of this technology and test its limits. The results of this project will help guide the evolution of the Canadian and Quebec arts and entertainment industries in the digital age.",
+    "keywords": ["marker-less motion capture", "human pose estimation", "range sensing"],
+    "funding": ["mitacs.jpeg", "CR!TAC.png"],
+    "institution": ["CRITAC"],
+    "collaborators": ["Marion Cossin, PhD"],
+    "students": ["Lauriane GRONDIN-REIHER", "Valérie GAUVIN", "Lisa BICHE"],
+    "id": "Cirque"
+  },
+  {
+    "title": "Vision-based monitoring systems for in-home rehabilitation",
+    "image": ["aginginplace1.jpg","aginginplace2.jpg"],
+    "desc": "The project aims to develop and validate an in-home rehabilitation system which can guide the elderly person through a set of optimized and individualized exercises after a total joint replacement surgery, as well as to monitor for potential serious postoperative complications, such as infections and deep vein thrombosis. To ensure ease-of-use and user-friendly installation, the Project will investigate remote (not attached to the human) and cost-effective sensors technologies, such as 2D and 3D cameras, as well as thermographic cameras for this purpose. Furthermore, algorithms will be developed to detect robustly whole body motions, as well as small joint motions of the elderly user. These information can be used to provide feedback to the user in real-time to ensure the exercises are performed correctly and to the full potential. Furthermore, the newly developed methods will be tested in a preliminary clinical study and compared to state-of-the-art motions tracking methods to ensure practicality, robustness, and accuracy.",
+    "keywords": ["marker-less motion capture", "human pose estimation", "thermal imaging", "in-home rehabilitation"],
+    "funding": ["CNRC.webp"],
+    "institution": ["National Research Council","Hopital Maisonneuve-Rosemont"],
+    "collaborators": ["Manuela Kunz","Mina Wahba Morcos, MD"],
+    "students": ["Étienne LESCARBEAULT", "Victor PATENAUDE"],
+    "id": "AgingInPlace"
+  },
+  {
+    "title": "Scene supervision and gesture recognition for interactive manufacturing process in cobotic platforms",
+    "image": ["cobotic1.jpg","cobotic2.jpg"],
+    "desc": "Interactive cyber-physical systems offer a suitable automation solution for certain machining processes, giving the operator a role in supervising operations and controlling product quality. It is important that the interactivity between the operator and the cyber-physical system is well thought out and designed. The overall aim of the project is to develop computational tools that will ultimately enable the operator, in a cobotic cell equipped with multiple RGB-D sensors, to communicate with the cyber-physical system, via his gestures, both whole-body and hand, in relation to his 3D environment. This will require the development of 3D pose estimation and gesture recognition algorithms robust to the challenges imposed by the machining context, such as visual occlusions or situations where the human is carrying/handling an object/tool in his/her hands.",
+    "keywords": ["human pose estimation", "hand gesture recognition", "human-machine interface"],
+    "funding": ["CNRC.webp"],
+    "institution": ["National Research Council"],
+    "collaborators": ["Amir Hajzargarbashi", "Julien-Mathieu Audet"],
+    "students": ["Corentin HUBERT", "Alaleh ASARAN DARBAN", "Marie NOËL"],
+    "id": "Cobotic"
+  },
+  {
+    "title": "Automatic deep learning analysis of images of the eye's anterior chamber",
+    "image": ["lightx1.jpg","lightx2.jpg"],
+    "desc": "Recent research has shown that it is possible to detect signs of pathologies such as diabetic retinopathy from external images of the eye. These images have the advantage of being acquired with standard slit lamp cameras, without the need to dilate the pupil. The aim of our project is to evaluate the diagnostic power of images of the anterior chamber of the eye for glaucoma in particular, and for pathologies in the broader sense. To this end, we are developping image processing algorithms to improve image quality, to identify the main anatomical areas and to normalize images in terms of color and intensity. The industrial partner's database will be used to train and evaluate deep neural networks to classify images according to the associated diagnosis, using both a supervised and a semi-supervised approach. Further development and application of this technology would increase the accessibility of the diagnosis, for example from slit lamp images at optometry clinics, or even from remote follow-up at the patient's home.",
+    "keywords": ["computer-aided diagnosis", "anomaly detection"],
+    "funding": ["mitacs.jpeg"],
+    "institution": ["LightX"],
+    "collaborators": ["Sébastien Gagné, MD"],
+    "students": ["Doha ZROUKI", "Philippe BAUMSTIMLER"],
+    "id": "LightX"
+  },
+  {
+    "title": "Towards the analysis of trunk mobility in adolescent idiopathic scoliosis using dynamic surface topography",
+    "image": ["trunkmobility1.jpg","trunkmobility2.jpg"],
+    "desc": "to do",
+    "keywords": ["range sensing", "3D point cloud", "scene flow"],
+    "funding": ["cihr.jpg"],
+    "institution": ["CHU Sainte Justine"],
+    "collaborators": ["Carole Fortin", "Farida Cheriet"],
+    "students": ["Ghazal EBRAHIMI", "Léa DROLET-ROY"],
+    "id": "TrunkMobility"
+  }
+]

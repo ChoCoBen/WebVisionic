@@ -1,0 +1,49 @@
+<mat-card class="project-card">
+  <mat-card-header>
+    <mat-card-title>{{ project.title }}</mat-card-title>
+    <mat-card-subtitle>
+      <p class="inline">Keywords: </p>
+      <ng-container *ngFor="let keyword of this.project.keywords; let last = last">
+        <p class="inline">{{ keyword }}{{ !last ? ', ' : '.' }}</p>
+      </ng-container>
+    </mat-card-subtitle>
+  </mat-card-header>
+
+  <app-slider [images]="images" [projectId]="projectId"></app-slider>
+
+  <mat-card-content>
+    <p>
+      {{ project.desc }}
+    </p>
+
+    <div class="section">
+      <p class="title-section inline">Partner institution: </p>
+      <ng-container *ngFor="let insti of this.project.institution let last = last">
+        <p class="inline">{{ insti }}{{ !last ? ', ' : '.' }}</p>
+      </ng-container>
+    </div>
+
+    <div class="section">
+      <p class="title-section inline">Collaborators: </p>
+      <ng-container *ngFor="let collaborator of this.project.collaborators let last = last">
+        <p class="inline">{{ collaborator }}{{ !last ? ', ' : '.' }}</p>
+      </ng-container>
+    </div>
+
+    <div class="section funding-container">
+      <p class="title-section">Funding:</p> <img class="funding-image" *ngFor="let funding of this.fundingImage" [src]="funding">
+    </div>
+
+    <div class="section student-image-container">
+      <ng-container *ngFor="let member of this.membersImage">
+        <div mat-card-avatar class="student-image"
+            [style.background-image]="'url(' + member.image + ')'"
+            (mouseenter)="textHoverStudent = member.student" (mouseleave)="textHoverStudent = ''">
+          <div class="text-hover" *ngIf="textHoverStudent === member.student">
+            <span [innerHTML]="textHoverStudent"></span>
+          </div>
+        </div>
+      </ng-container>
+    </div>
+  </mat-card-content>
+</mat-card>

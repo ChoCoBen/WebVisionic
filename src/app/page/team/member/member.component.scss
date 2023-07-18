@@ -1,0 +1,29 @@
+.header-image {
+  background-size: cover;
+  height: 70px;
+  width: 70px;
+  margin-bottom: 0;
+}
+
+.member-card {
+  width: 100%;
+}
+
+.cosupervisor {
+  display: inline;
+}
+
+p {
+  margin:0;
+}
+
+.header-image-container {
+  margin-right: 10px;
+}
+
+mat-card-header {
+  display: flex;
+  align-items: center;
+}
+
+

@@ -1,0 +1,28 @@
+<div class="slider">
+  <div class="slides" [style.width]="image_number+'00%'">
+    <input *ngFor="let image of images, let index = index" type="radio" name="radio-btn" [id]="projectId + '-radio' + index"
+    (change)="onRadioChange(index)">
+
+    <div *ngFor="let image of images; let isFirst = first" class="slide" [class]="projectId" [ngClass]="{'first': isFirst}" [style.width]="100/image_number+'%'">
+      <img [src]="image">
+    </div>
+
+    <div class="navigation-manual" [style.width]="'100%'">
+      <label *ngFor="let image of images, let index = index" [for]="projectId + '-radio' + index" class="manual-btn"
+      [ngStyle]="{ 'background': index === current_image ? '#3f51b5' : '' }"></label>
+    </div>
+    <div class="arrow-navigation">
+      <div class="left-navigation">
+        <button (click)="onLeftButton()" mat-mini-fab color="primary" matTooltip="Basic">
+          <mat-icon>arrow_back_ios</mat-icon>
+        </button>
+      </div>
+
+      <div class="right-navigation">
+        <button (click)="onRightButton()" mat-mini-fab color="primary" matTooltip="Basic">
+          <mat-icon>arrow_forward_ios</mat-icon>
+        </button>
+      </div>
+    </div>
+  </div>
+</div>
