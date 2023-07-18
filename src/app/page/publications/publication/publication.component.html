@@ -1,0 +1,41 @@
+<div class="container">
+  <div class="left"></div>
+  <div class="img-container">
+    <img [src]="this.imagePath">
+  </div>
+  <div class="middle"></div>
+  <div class="content-container">
+
+    <h1 class="content-item">{{ publication.title }}</h1>
+
+    <div class="content-item">
+      <p class="inline title-section">Authors: </p>
+      <ng-container *ngFor="let author of this.publication.author; let last = last">
+        <p class="inline">{{ author }}{{ !last ? ' & ' : '.' }}</p>
+      </ng-container>
+    </div>
+
+    <div class="content-item">
+      <p class="inline title-section">Link: </p>
+      <a class="inline" href="{{ this.publication.link }}" target="_blank"> {{ this.publication.link }} </a>
+    </div>
+
+    <div class="content-item" *ngIf="!(this.publication.bookTitle === '')">
+      <ng-container>
+        <p class="inline">Published in the book {{ this.publication.bookTitle }}</p>
+        <p class="inline" *ngIf="!(this.publication.publisher === '')"> by {{ this.publication.publisher }}</p>
+        <p class="inline"> in {{ this.publication.year }}.</p>
+      </ng-container>
+    </div>
+
+    <div class="published content-item" *ngIf="!(this.publication.journal=== '')">
+      <ng-container >
+        <p class="inline">Published in the Journal {{ this.publication.journal }}</p>
+        <p class="inline" *ngIf="!(this.publication.publisher === '')"> by {{ this.publication.publisher }}</p>
+        <p class="inline"> in {{ this.publication.year }}.</p>
+      </ng-container>
+    </div>
+
+  </div>
+  <div class="right"></div>
+</div>

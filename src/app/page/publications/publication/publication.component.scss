@@ -1,0 +1,59 @@
+.container {
+  display: flex;
+  margin-bottom: 8px;
+}
+
+.img-container {
+  width: 9%;
+  display:flex;
+  align-items: center;
+}
+
+.content-container {
+  width: 75%;
+  display: flex;
+  flex-direction: column;
+}
+
+.content-item {
+  flex-grow: 1;
+  margin-bottom: 8px;
+}
+
+img {
+  width: 100%;
+}
+
+.inline {
+  display: inline;
+}
+
+.title-section {
+  font-weight: 500;
+}
+
+h1 {
+  font-size: large;
+  margin-top: 0;
+}
+
+hr {
+  margin-top: 0;
+  margin-bottom: 3px;
+}
+
+.left{
+  width: 10%;
+}
+
+.right {
+  width: 10%;
+}
+
+.middle {
+  width: 2%;
+}
+
+.published {
+  margin-bottom: 0;
+}
